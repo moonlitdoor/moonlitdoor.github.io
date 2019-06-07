@@ -6,9 +6,9 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+permalink: /:year/:month/:day/:title:output_ext
 collections:
   customPages:
     output: true
 include:
   - README.md
-  permalink: /:year/:month/:day/:title:output_ext
