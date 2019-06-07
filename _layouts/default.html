@@ -38,7 +38,7 @@
           <tr>
             <th><a href="{{ site.baseurl }}/"><h2>Home</h2></a></th>
             {% for page in site.pages %}
-              <th><a href="{{ site.baseurl }}/test"><h2>Test</h2></a></th>
+              <th><a href="{{ site.baseurl }}{{ page.url }}"><h2>Test</h2></a></th>
             {% endfor %}
           </tr>
         </table>
