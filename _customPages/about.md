@@ -1,6 +1,5 @@
 ---
 layout: page
-name: About
 rank: 3
 ---
 
