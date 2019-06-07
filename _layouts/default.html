@@ -37,7 +37,8 @@
         <table style="border: 0;">
           <tr>
             <th><a href="{{ site.baseurl }}/"><h2>Home</h2></a></th>
-            {% for page in site.customPages %}
+            {% assign pages = site.customPages | sort: 'rank' %}
+            {% for page in pages %}
               <th><a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.name }}</h2></a></th>
             {% endfor %}
           </tr>
