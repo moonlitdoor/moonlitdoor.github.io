@@ -10,5 +10,7 @@ collections:
   customPages:
     output: true
     permalink: /:name
+  definition:
+    output: true
 include:
   - README.md

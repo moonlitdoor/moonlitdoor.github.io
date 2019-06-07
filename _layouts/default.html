@@ -57,6 +57,13 @@
               {% endfor %}
           </ul>
 
+          <h3>Defintions</h3>
+          <ul class="posts">
+              {% for definition in site.definitions %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ definition.title }}</a></li>
+              {% endfor %}
+          </ul>
+
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
               <small>Download</small>
