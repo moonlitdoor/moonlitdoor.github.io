@@ -15,3 +15,6 @@ collections:
     permalink: /definition/:name
 include:
   - README.md
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough"]
