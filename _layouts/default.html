@@ -60,7 +60,7 @@
           <h3>Definitions</h3>
           <ul class="posts">
               {% for definition in site.definitions %}
-                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ definition.title }}</a></li>
+                <li><a href="{{ site.baseurl }}{{ definition.url }}">{{ definition.name | default: definition.title }}</a></li>
               {% endfor %}
           </ul>
 
