@@ -23,10 +23,10 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <div>
-          <a href="{{ site.baseurl }}/" style="display: inline-block;"><h2>Home</h2></a>
+          <a href="{{ site.baseurl }}/" style="display: inline-block;"><h3>Home</h3></a>
           {% assign pages = site.customPages | sort: 'rank' %}
           {% for page in pages %}
-            <a href="{{ site.baseurl }}{{ page.url }}" style="display: inline-block;"><h2>{{ page.name }}</h2></a>
+            <a href="{{ site.baseurl }}{{ page.url }}" style="display: inline-block;"><h3>{{ page.name }}</h3></a>
           {% endfor %}
         </div>
         {% if site.github.is_project_page %}
