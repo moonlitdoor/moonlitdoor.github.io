@@ -39,7 +39,6 @@
             <th><a href="{{ site.baseurl }}/"><h2>Home</h2></a></th>
             {% for page in site.customPages %}
               <th><a href="{{ site.baseurl }}{{ page.url }}"><h2>T{{page.name}}</h2></a></th>
-              {{ page }}
             {% endfor %}
           </tr>
         </table>
