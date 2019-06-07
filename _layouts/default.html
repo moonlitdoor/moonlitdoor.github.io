@@ -33,16 +33,16 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
+
+        <table style="margin: 16px; border: 0;">
+          <tr>
+            <th><a href="{{ site.baseurl }}/"><h2>Home</h2></a></th>
+            <th><a href="{{ site.baseurl }}/test"><h2>Test</h2></a></th>
+            <th><a href="{{ site.baseurl }}/about"><h2>About</h2></a></th>
+          </tr>
+        </table>
+
         <section id="main-content">
-
-          <table style="margin: 8px; border: 0; text-align: right;">
-            <tr>
-              <th><a href="{{ site.baseurl }}/">Home</a></th>
-              <th><a href="{{ site.baseurl }}/test">Test</a></th>
-              <th><a href="{{ site.baseurl }}/about">About</a></th>
-            </tr>
-          </table>
-
           {{ content }}
         </section>
 
