@@ -12,6 +12,6 @@ collections:
     permalink: /:name
   definitions:
     output: true
-      permalink: /definition/:name
+    permalink: /definition/:name
 include:
   - README.md
