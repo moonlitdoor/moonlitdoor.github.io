@@ -7,10 +7,10 @@ relative_links:
   enabled: true
   collections: true
 collections:
-  customPages:
-    output: true
-    permalink: /:name
-  definition:
-    output: true
+  - customPages:
+      output: true
+      permalink: /:name
+  - definition:
+      output: true
 include:
   - README.md
