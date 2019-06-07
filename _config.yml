@@ -1,5 +1,5 @@
 title: Moonlit Door Software
-description: Test4
+description: Test5
 theme: jekyll-theme-architect
 plugins:
   - jekyll-relative-links
@@ -7,10 +7,11 @@ relative_links:
   enabled: true
   collections: true
 collections:
-  - customPages:
-      output: true
-      permalink: /:name
-  - definition:
-      output: true
+  customPages:
+    output: true
+    permalink: /:name
+  definitions:
+    output: true
+      permalink: /definition/:name
 include:
   - README.md
