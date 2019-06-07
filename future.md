@@ -1,7 +1,3 @@
-~Source Control~
-
-~Source Control Management~
-
 Git
 
 Providers
