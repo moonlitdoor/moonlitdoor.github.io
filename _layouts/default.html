@@ -22,17 +22,13 @@
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <table>
-          <th>
-            <a href="{{ site.baseurl }}/"><h2>Home</h2></a>
-          </th>
+        <ul style="list-style-type: none; margin: 0; padding: 0;">
+          <li style="display: inline;"><a href="{{ site.baseurl }}/"><h2>Home</h2></a></li>
           {% assign pages = site.customPages | sort: 'rank' %}
           {% for page in pages %}
-            <th>
-              <a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.name }}</h2></a>
-            </th>
+            <li style="display: inline;"><a href="{{ site.baseurl }}{{ page.url }}"><h2>{{ page.name }}</h2></a></li>
           {% endfor %}
-        </table>
+        </ul>
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
         {% endif %}
