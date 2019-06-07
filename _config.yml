@@ -1,5 +1,5 @@
-title: Moonlit Door Software
-description: 1
+title: Moonlit Door
+description: Software
 theme: jekyll-theme-architect
 plugins:
   - jekyll-relative-links
