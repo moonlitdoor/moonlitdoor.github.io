@@ -1,6 +1,6 @@
 ---
 layout: page
-name: about
+name: About
 url: about
 ---
 
