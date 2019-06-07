@@ -1,2 +1,6 @@
-teest
+---
+layout: page
+---
+
+test
 =====
