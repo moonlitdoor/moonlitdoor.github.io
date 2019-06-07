@@ -1,7 +1,7 @@
 ---
 layout: page
 name: Test
-url: test
+ref: test
 ---
 
 test

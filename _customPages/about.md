@@ -1,7 +1,7 @@
 ---
 layout: page
 name: About
-url: about
+ref: about
 ---
 
 About
