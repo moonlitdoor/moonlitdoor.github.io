@@ -7,7 +7,7 @@ relative_links:
   enabled: true
   collections: true
 collections:
-  - customPages:
-      output: true
+  customPages:
+    output: true
 include:
   - README.md
