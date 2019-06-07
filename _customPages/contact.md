@@ -1,7 +1,7 @@
 ---
 layout: page
 name: Contact
-rank: 1
+rank: 99
 ---
 
 Contact Us
