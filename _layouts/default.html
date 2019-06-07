@@ -37,8 +37,8 @@
         <table style="border: 0;">
           <tr>
             <th><a href="{{ site.baseurl }}/"><h2>Home</h2></a></th>
-            {% for custom in site.customs %}
-              <th><a href="{{ site.baseurl }}{{ custom.url }}"><h2>Test</h2></a></th>
+            {% for page in site.customPages %}
+              <th><a href="{{ site.baseurl }}{{ page.url }}"><h2>{{page.name}}</h2></a></th>
             {% endfor %}
           </tr>
         </table>
