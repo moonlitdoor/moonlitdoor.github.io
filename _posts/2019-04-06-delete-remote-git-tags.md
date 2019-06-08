@@ -12,6 +12,9 @@ enough that I have memorized how to delete that tag.
 So write it down.
 -----------------
 
+Assuming that you just pushed a tag named ```0.7.8``` to origin. You can delete
+it doing the following:
+
 {% highlight bash %}
 git tag -d 0.7.8
 git push origin :refs/tags/0.7.8
