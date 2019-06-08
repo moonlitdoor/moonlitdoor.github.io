@@ -11,11 +11,11 @@ Reach out to us, we would love to help!
 
 Email
 -----
-***<consulting@moonlitdoor.com>***
+<consulting@moonlitdoor.com>
 
 Twitter
 -------
-[***@MLDSoftware***](https://twitter.com/mldsoftware){:target="_blank"}
+[@MLDSoftware](https://twitter.com/mldsoftware){:target="_blank"}
 
 GitHub
 ------
