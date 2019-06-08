@@ -15,7 +15,7 @@ Email
 
 Twitter
 -------
-***<@MLDSoftware>***
+[***@MLDSoftware***](https://twitter.com/mldsoftware){:target="_blank"}
 
 GitHub
 ------
@@ -28,4 +28,4 @@ Coming someday...
 Website
 -------
 Eventually we will build it and this site will become our engineering blog.
-[Here it is in a very unfinished state](https://www.moonlitdoor.com/)
+[Here it is in a very unfinished state](https://www.moonlitdoor.com/){:target="_blank"}
