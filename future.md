@@ -1,4 +1,4 @@
-Git
+Engineers
 
 Providers
 
@@ -7,12 +7,6 @@ GitHub
 Gitlab
 
 BitBucket
-
-delete remote commit
-
-git tag -d 12345
-
-git push origin :refs/tags/12345
 
 Trunk Based vs Git Flow
 
