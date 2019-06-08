@@ -4,8 +4,8 @@ name: Contact
 rank: 100
 ---
 
-Need help with something? Contact Us.
-=====================================
+Need help with something?
+=========================
 
 Reach out to us, we would love to help!
 
