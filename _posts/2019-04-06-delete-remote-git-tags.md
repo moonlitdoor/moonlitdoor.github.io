@@ -17,10 +17,5 @@ git tag -d 0.7.8
 git push origin :refs/tags/0.7.8
 {% endhighlight %}
 
-``` bash
-git tag -d 0.7.8
-git push origin :refs/tags/0.7.8
-```
-
 Simple.
 -------
