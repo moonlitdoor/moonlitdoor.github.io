@@ -1,6 +1,7 @@
 title: Moonlit Door
 description: Helping You Deliver Better Software.
 theme: jekyll-theme-architect
+google_analytics: UA-68156775-4
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
