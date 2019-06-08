@@ -1,7 +1,8 @@
 title: Moonlit Door Software
-description: Test5
+description: Helping You Deliver Better Software
 theme: jekyll-theme-architect
 plugins:
+  - jekyll-seo-tag
   - jekyll-relative-links
 relative_links:
   enabled: true

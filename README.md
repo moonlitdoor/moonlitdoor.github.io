@@ -1,7 +1,4 @@
-readme
-----
+Readme
+======
 
-1
-~ Moonlit DoorSoftware
-
-[Test](/test)
+Moonlit DoorSoftware

@@ -1,7 +1,7 @@
 ---
 layout: page
 name: About
-rank: 100
+rank: 99
 ---
 
 About
