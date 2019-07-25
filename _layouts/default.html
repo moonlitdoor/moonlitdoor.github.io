@@ -93,8 +93,11 @@
         ga('send', 'pageview');
 
         function submitEmail() {
+          var frm = document.getElementsByTagName("email");
+          console.log(frm.value);
            // action="https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec"
-          console.log("submitting email")
+          console.log("submitting email");
+          frm.reset()
         }
       </script>
     {% endif %}
