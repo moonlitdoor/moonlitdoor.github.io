@@ -48,9 +48,9 @@
 
         <aside id="sidebar">
 
-          <form method="post" onsubmit="submitEmail();return false">
+          <form name="form" method="post" onsubmit="submitEmail();return false" action="https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec">
             <input type="email" name="email" placeholder="Email">
-            <input type="submit" value="Submit6">
+            <input type="submit" value="Submit7">
           </form>
 
           <h2>Posts</h2>
@@ -93,12 +93,10 @@
         ga('send', 'pageview');
 
         function submitEmail() {
-          var frm = document.getElementsByName("email")[0];
-          console.log(document.getElementsByName("email"));
-          console.log(frm.value);
-           // action="https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec"
-
-          frm.value = null;
+          var email = document.getElementsByName("email")[0];
+          email.value = null;
+          var form = document.getElementsByName("form")[0];
+          form.submit();
         }
       </script>
     {% endif %}
