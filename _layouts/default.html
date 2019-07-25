@@ -50,7 +50,7 @@
 
           <form method="post" onsubmit="submitEmail();return false">
             <input type="email" name="email" placeholder="Email">
-            <input type="submit" value="Submit5">
+            <input type="submit" value="Submit6">
           </form>
 
           <h2>Posts</h2>
@@ -94,11 +94,11 @@
 
         function submitEmail() {
           var frm = document.getElementsByName("email")[0];
-          console.log(frm);
+          console.log(document.getElementsByName("email"));
           console.log(frm.value);
            // action="https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec"
-          console.log("submitting email");
-          // frm.reset()
+
+          frm.value = null;
         }
       </script>
     {% endif %}
