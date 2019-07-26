@@ -50,7 +50,7 @@
 
           <form name="form" method="post" onsubmit="submitEmail();return false" action="https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec">
             <input type="email" name="email" placeholder="Email">
-            <input type="submit" value="Submit8">
+            <input type="submit" value="Submit9">
           </form>
 
           <h2>Posts</h2>
@@ -95,7 +95,7 @@
         function submitEmail() {
           var email = document.getElementsByName("email")[0];
           var xhr = new XMLHttpRequest();
-          xhr.open("POST", yourUrl, true);
+          xhr.open("POST", "https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec", true);
           xhr.setRequestHeader('Content-Type', 'application/json');
           xhr.send(JSON.stringify({
               email: email.value
