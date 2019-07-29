@@ -48,10 +48,10 @@
 
         <aside id="sidebar">
 
-          <form name="form" method="post" onsubmit="submitEmail();return false" action="https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec">
+          <div>
             <input type="email" name="email" placeholder="Email">
-            <input type="submit" value="Submit11">
-          </form>
+            <input type="submit" value="Submit6" onclick="submitEmail()">
+          </div>
 
           <h2>Posts</h2>
           <ul class="posts">
@@ -94,26 +94,14 @@
 
         function submitEmail() {
           var email = document.getElementsByName("email")[0];
-
-          let data ={
-              email: email.value
-          };
-
-          fetch("https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec", {
-            method: "POST",
-            body: JSON.stringify(data)
+          fetch("https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec?email=" + email.value + "&location=" + window.location.href, {
+            method: "POST"
           }).then(res => {
             console.log("Request complete! response:", res);
           });
-
-          // var xhr = new XMLHttpRequest();
-          // xhr.open("POST", "https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec", true);
-          // xhr.setRequestHeader('Content-Type', 'application/json');
-          // xhr.send(JSON.stringify({
-              // email: email.value
-          // }));
           email.value = null;
         }
+
       </script>
     {% endif %}
   </body>
