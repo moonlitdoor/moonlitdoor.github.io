@@ -28,4 +28,4 @@ Coming someday...
 Website
 -------
 Eventually we will build it and this site will become our engineering blog.
-[Here it is in a very unfinished state](https://www.moonlitdoor.com/){:target="_blank"}
+[Here it is in a very unfinished state.](https://www.moonlitdoor.com/){:target="_blank"}
