@@ -15,6 +15,9 @@ collections:
   definitions:
     output: true
     permalink: /definition/:name
+  drafts:
+    output: true
+    permalink: /:name
 include:
   - README.md
 markdown: kramdown

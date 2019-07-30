@@ -54,7 +54,7 @@
             <input type="email" name="email" placeholder="Email" style="
               display: inline-block;
               background: transparent;
-              width: 300px;
+              width: 240px;
               outline: 0;
               padding: 18px;
               border-color: #00000044;border-bottom-left-radius: 8px;
@@ -111,11 +111,13 @@
 
         function submitEmail() {
           var email = document.getElementsByName("email")[0];
-          fetch("https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec?email=" + email.value + "&location=" + window.location.href, {
-            method: "POST"
-          }).then(res => {
-            console.log("Request complete! response:", res);
-          });
+          if (email.value !== null && email.value !== "") {
+            fetch("https://script.google.com/macros/s/AKfycbxQvTCZdMtd6RqBw2bFQbvi6GWrDx1XjPXSubZldo_GAtI0GeU/exec?email=" + email.value + "&location=" + window.location.href, {
+              method: "POST"
+            }).then(res => {
+              console.log("Request complete! response:", res);
+            });
+          }
           email.value = null;
         }
 
