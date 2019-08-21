@@ -7,7 +7,7 @@ rank: 101
 Projects
 ========
 
-[mld-amessage-android](https://github.com/moonlitdoormld-amessage-android)
+[mld-amessage-android](https://github.com/moonlitdoor/mld-amessage-android)
 ---------------------
 The Android App for AMessage
 
