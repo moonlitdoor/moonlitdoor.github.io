@@ -6,10 +6,13 @@ google_analytics: UA-68156775-4
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
+  - jekyll-feed
   - jekyll-sitemap
 relative_links:
   enabled: true
   collections: true
+feed:
+  path: feed.xml
 defaults:
   - scope:
       path:            "_drafts/**/*"
