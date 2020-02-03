@@ -1,13 +1,21 @@
 title: Moonlit Door
 description: Helping You Deliver Better Software.
+url: "https://moonlitdoor.github.io/"
 theme: jekyll-theme-architect
 google_analytics: UA-68156775-4
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
+  - jekyll-sitemap
 relative_links:
   enabled: true
   collections: true
+defaults:
+  -
+    scope:
+      path:            "_drafts/**/*"
+    values:
+      sitemap:         false
 collections:
   customPages:
     output: true
