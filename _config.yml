@@ -15,13 +15,17 @@ feed:
   path: feed.xml
 defaults:
   - scope:
-      path:            "_drafts/**/*"
+      path: "_drafts/**/*"
     values:
-      sitemap:         false
+      sitemap: false
   - scope:
-      path:            "future.md"
+      path: "future.md"
     values:
-      sitemap:         false
+      sitemap: false
+  - scope:
+      path: "assets/dc=oc"
+    values:
+      sitemap: false
 collections:
   customPages:
     output: true
